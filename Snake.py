@@ -42,7 +42,7 @@ class Snake():
         self.segment_thickness = 2
         #self.headpos = (10,10)
         self._body = [[150,150]]
-        self.snakelength = 400
+        self.snakelength = 4
         self._window = window
         
         for s in range(self.snakelength):
